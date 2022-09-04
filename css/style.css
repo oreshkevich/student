@@ -1421,21 +1421,21 @@ h2.specialty__title {
 }
 
 .studier-modal {
+  display: block;
   position: absolute;
   background: #fbfbfb;
   -webkit-box-shadow: 0 7px 38px rgba(44, 62, 106, 0.25);
           box-shadow: 0 7px 38px rgba(44, 62, 106, 0.25);
   border-radius: 10px;
   z-index: 10;
+  top: 100%;
   margin-top: 16px;
   width: 385px;
   padding: 24px 0 0;
-  left: 12.5vw;
+  left: 14.0625vw;
   top: 65px;
+  visibility: hidden;
   overflow: hidden;
-  display: block;
-  opacity: 1;
-  visibility: visible;
 }
 
 .city-search-block {
